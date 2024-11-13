@@ -1,0 +1,82 @@
+.table1 {
+  border: 2px solid white;
+  width: 100%;
+  height: 370px;
+  border-collapse: collapse;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.div1 td,
+th,
+.div5 td,
+div5 th {
+  text-align: center;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  padding: 10px;
+  border: 2px solid white;
+}
+
+.div1 thead {
+  background-color: azure;
+}
+
+.div1 tbody {
+  background-color: lightgoldenrodyellow;
+}
+
+.div1 tfoot {
+  background-color: antiquewhite;
+}
+
+.caption1 {
+  background-color: greenyellow;
+  color: black;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  border: 2px solid white;
+  margin-bottom: 10px;
+}
+
+.div2 {
+  margin-top: 30px;
+}
+
+.div2 table {
+  height: 230px;
+}
+
+.div2 td,
+.div2 th,
+.div3 th {
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 1.31rem;
+}
+
+.marginTop {
+  margin-top: 30px;
+}
+
+.div3 td:nth-child(even) {
+  background-color: lavenderblush;
+}
+
+.div3 td:nth-child(odd) {
+  background-color: gainsboro;
+}
+
+.div4 tr:nth-child(even) {
+  background-color: black;
+  color: white;
+}
+
+.div4 tr:nth-child(odd) {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.div5 th {
+  color: white;
+}
